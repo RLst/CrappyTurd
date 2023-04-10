@@ -102,8 +102,8 @@ MonoBehaviour:
   rigidBody: {fileID: 227872243750830768}
   isDead: 0
   flySpeed: 8.4
-  velRange: {x: -10, y: 30}
-  tiltRange: {x: -90, y: 40}
+  velRange: {x: -20, y: -5}
+  tiltRange: {x: -80, y: 22}
 --- !u!50 &227872243750830768
 Rigidbody2D:
   serializedVersion: 4
