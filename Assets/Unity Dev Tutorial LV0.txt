@@ -1,0 +1,143 @@
+Shader Motion Academy
+
+Subject: Unity Development
+Level: Foundational
+Course: Core Essentials
+Chapter: See below
+
+QUESTIONS
+Q. What are the list of things a novice would have to learn regardless of what game they were gonna make ie.
+	How to make a character appear and move around
+	How to make stuff spawn in and despawn
+	How to have collisions
+	How to have game start and game over logic
+	How to have sound effects
+	How to have animations
+
+THINGS TO CONSIDER
+• Call to actions: Subscribe! Like!
+	If video is <5 min then make it discreet so it's not so annoying
+• Add recaps
+• Add screenshots in the overview/introduction of the course so that students can get a preview of what they'll be learning
+•
+
+COURSE CHAPTERS
+Introduction
+	What will we learn:
+		Our course will focus on teaching you the essential fundamental building blocks of Unity, providing you with a strong foundation for our future lessons
+	Why learn Unity:
+		10 reasons...
+	Who this course is for:
+		Complete novices and beginners
+		Those who are curious about game development but not sure if you want to commit to a full project, this could be a good way to get your feet wet.
+
+Minimum system requirements
+	Supported systems
+		Mac OS - High Sierra 10.13+ (intel), Big Sur 11 (Apple Silicon), Bindows - 7,10,11 x64 only, Linux - Ubuntu 20.04, 18.04 and CentOS 7
+	CPU: Intel i5 / AMD Ryzen 5, M1 chip or better
+	RAM: 16GB, Ideal: 32GB
+	Disk: 500GB, Ideal: 1TB+
+
+Installing and Setting up Unity
+	Unity.com
+	Developer Tools
+	Download Unity
+	Download for Windows, Downloads unity hub
+	Open, Agree, Install, Finish
+	Create Account OR Sign in
+	"This site is trying to open Unity Hub” Open
+	Install unity editor
+	Agree and get personal edition license OR skip
+	Install latest version of unity
+
+Creating your First Unity Project
+	Unity Hub > New Project >
+	Manage license > Get a free personal license
+	Set destination folder to: Users\[Your Name]\Development\
+
+The Unity Editor
+	Hierarchy
+	Inspector
+	Scene view vs. Game View
+	Top menu
+	Project window
+	Moving the camera around, WASD or traditional style
+
+Creating a scene and adding in game objects
+	Create new scene
+	Create default objects: Cube, Plane, Cyclinder etc
+	Importing in assets
+		Images > Export settings > Sprites
+
+Editing game objects
+	What are GameObjects?
+	Empty gameobjects
+	What are components?
+	Transform component
+	Physics
+	Colliders
+		Trigger
+		Rigidbody
+		Collision matrix
+	Rigidbodies
+	Mesh Filters
+	Mesh Renderer
+	Tags, Layers, Static
+	Active vs enabled
+
+Building your first game
+	Why flappy bird? Because it was made in Vietnam, and is simple enough to be used as a base for learning the basics
+	Setting up the basic flappy bird game scene
+	Game mechanics; there probably many ways to do this, but heres how I would do it
+		Player stays in place, only moves on the y axis
+		Pipes spawn on the right
+		Pipes move from right to left + y randomized
+		Pipes despawn after
+		Ground loop animates, UV texture right to left?
+		Background parallax (intermediate)
+		Score after pipe passes a certain threshold that is detected by a trigger collider
+
+Scripting basics
+	Installing and setting up Visual Studio Code
+		Download and install
+		Install extensions
+		Unity VS code setup
+		Make sure intellisense works
+		Make sure to refresh to avoid errors
+	Monobehaviours
+	Start()
+	Update()
+	Input
+	Transform and basic movement/translation
+	DeltaTime
+	Intermediate: public, serialization, [SerializeField]
+	Intermediate: object pooling
+	GetComponent and Caching
+	Debug.Log()
+	Tags
+	Intermediate: Detection via tags vs. object type
+	Super simple example:
+		Move object using WASD
+		Challenge: shoot?, change speed
+	The importance of separating logic out by individual parts
+
+
+UI and Scoring
+	UI basics
+	Canvas
+	Text vs. TextMeshPro; slight history lesson
+	Images
+	Buttons
+	Sprites vs. Images
+	Scoring logic; on trigger enter
+	Hooking buttons up to functions
+	PlayerPrefs
+
+Sounds and Audio
+	PROVIDE Non copyrighted music and sounds
+	AudioSource
+	UnityEvents: Hooking up audio
+
+Building and distributing your game
+	As an exe file
+	As an webGL app that can be shared on the internet
